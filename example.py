@@ -6,7 +6,7 @@ class ArithmeticPair:
         x:
             The first operand.
         y:
-            The second operand.
+             The second operand.
     """
 
     def __init__(self, x, y):
@@ -17,23 +17,23 @@ class ArithmeticPair:
         """
         Compute :math:`x + y`.
         """
-        #return self.x + self.y
+        return self.x + self.y
 
     def difference(self):
         """
         Compute :math:`x - y`.
         """
-        #return self.y - self.x
+        return self.x - self.y
 
     def product(self):
         """
         Compute :math:`x * y`.
         """
-        #return self.x * self.y
+        return self.x * self.y
 
     def quotient(self):
         """
         Compute :math:`x / y`.
         """
-        #return self.x / self.y
+        return self.x / self.y
     
