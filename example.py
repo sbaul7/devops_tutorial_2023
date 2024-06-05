@@ -6,7 +6,7 @@ class ArithmeticPair:
         x:
             The first operand.
         y:
-            The second operand.
+             The second operand.
     """
 
     def __init__(self, x, y):
